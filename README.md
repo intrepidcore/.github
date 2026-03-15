@@ -1,20 +1,29 @@
-# IntrepidCore
+# Intrepid Core
 
 Nous construisons des logiciels métier pour l'ingénierie terrain et la gestion
 des données souveraines en Afrique de l'Ouest.
 
+**Vision** : Innover localement, impacter globalement.
+
 ## Produits
 
-| Produit | Description | Statut |
-|---------|-------------|--------|
-| [Atlas Géotechnique](https://github.com/intrepidcore/atlas-geotechnique) | Plateforme de données géotechniques pour le Togo | v1.0 |
-| [LCPI](https://github.com/intrepidcore/lcpi) | — | En développement |
-| [IgnisCore](https://github.com/intrepidcore/igniscore) | — | Bientôt |
+| Produit | Description | Stack | Statut |
+|---------|-------------|-------|--------|
+| [LCPI](https://github.com/intrepidcore/lcpi) | Plateforme de calculs en Génie Civil — AEP, Hydraulique, Béton, Bois, Métal | Python · FastAPI · Tauri | v2.4.1 · CLI stable |
+| [Atlas Géotechnique](https://github.com/intrepidcore/atlas-geotechnique) | Base géotechnique interactive d'Afrique de l'Ouest | Rust · PostGIS · React · Tauri | v1.4.0 · MVP avancé |
+| [IgnisCore](https://github.com/intrepidcore/igniscore) | Valorisation énergétique intelligente de la biomasse | Python · IoT · IA | En développement |
 
 ## Stack technique
 
-PostGIS · Rust · Tauri · React · TypeScript
+Rust · Python · PostGIS · Tauri · React · Flutter · LoRaWAN · ONNX
+
+## Contexte
+
+Basé à **Lomé, Togo** — conçu pour les ingénieurs qui travaillent
+dans des environnements à connectivité limitée, avec des ressources
+locales et des normes africaines.
 
 ---
 
-Basé à Lomé, Togo · contact@intrepidcore.io
+[contact@intrepidcore.com](mailto:contact@intrepidcore.com) ·
+Togo · Afrique de l'Ouest
